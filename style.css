@@ -78,7 +78,7 @@ p {
   background-color: black;
 }
 .h2con2 {
-  width: 550px;
+  width: 515px;
 }
 .boton1 {
   background-color: #f5eee8;
@@ -103,4 +103,9 @@ h2 {
   width: 300px;
   display: block;
   margin: 0 auto;
+}
+@media screen and (max-width: 576px) {
+  .logo1 {
+    display: none;
+  }
 }
